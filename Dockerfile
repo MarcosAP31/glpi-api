@@ -45,5 +45,6 @@ RUN php artisan key:generate
 # Exponemos el puerto 80
 EXPOSE 80
 
+
 # Comando por defecto para ejecutar Apache en primer plano
 CMD ["apache2-foreground"]
